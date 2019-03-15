@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.App {
+  box-sizing: border-box;
+  padding: 15px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+h1{
+  margin: 10px auto;
+  font-size: 24px;
+}
+.posts-item{
+  text-align: left;
+  margin-bottom: 15px;
+}
+.posts-item h4{
+  margin-bottom: 7px;
+  font-size: 18px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.posts-item p{
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.postform-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.postform-item label{
+  margin-right: 10px;
+  font-size: 16px;
+  width: 48px;
+  text-align: right;
+  display: block;
+}
+.postform-item input{
+  height: 32px;
+  border:1px solid #ddd;
+  box-sizing: border-box;
+  padding: 0 10px;
+  flex: 1;
+  border-radius: 3px;
+}
+.postform-item button{
+  width: 120px;
+  height: 32px;
+  cursor: pointer;
+  border:1px solid #43acf1;
+  background: #43acf1;
+  color: #fff;
+  border-radius: 3px;
+}
+.postform-item button:active{
+  opacity: .9;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
